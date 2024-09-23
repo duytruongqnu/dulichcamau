@@ -267,26 +267,79 @@
         <section class="ho-content07">
             <div class="container">
                 <h2 class="title-style01 text-center mb-5">LIÊN KẾT WEBSITE</h2>
-                <div class="swiper hoSlider07">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">Slide 1</div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
+                <div class="h7-slider">
+                    <div class="grid-995">
+                        <div class="swiper hoSlider07">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="">Vườn Quốc Gia Mũi Cà Mau</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">Du lịch Khai Long</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">Vườn Quốc Gia Mũi Cà Mau</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">Du lịch Khai Long</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">Vườn Quốc Gia Mũi Cà Mau</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">Du lịch Khai Long</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">Vườn Quốc Gia Mũi Cà Mau</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">Du lịch Khai Long</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next next07 nav-style01"><i class="fa-light fa-angle-right"></i></div>
+                    <div class="swiper-button-prev prev7 nav-style01"><i class="fa-light fa-angle-left"></i></div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-		
+		<div class="wrap-ft">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-xl-6 col-md-6 col-sm-12">
+                        <a href="./"><img src="./assets/images/logo-ft.svg" alt=""></a>
+                        <div class="ft-info mt-3">
+                            VƯỜN QUỐC GIA MŨI CÀ MAU<br>
+                            BAN QUẢN LÝ KHU DU LỊCH MŨI CÀ MAU<br><br>
+
+                            Địa chỉ:<br>
+                            ấp Cồn Mũi, xã Đất Mũi, huyện Ngọc Hiển, tỉnh Cà Mau<br><br>
+
+                            Tên người đại diện:<br>
+                            Tạ Huỳnh Vĩnh Trường - Chức vụ: Giám đốc<br><br>
+
+                            Điện thoại: 0889 566 55<br>
+                            Email: bqlkdlqgmcm@gmail.com
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6 col-sm-12 text-end mt-4">
+                        <h3>Nhập địa chỉ Email của bạn <br>để nhận thông tin mới nhất<br> từ chúng tôi.</h3>
+                        <form action="" method="post">11</form>
+                        <ul>
+                            <li>
+                                <a href="" target="_blank"><img src="./assets/images/ft-img02.svg" alt="Facebook"></a>
+                                <a href="" target="_blank"><img src="./assets/images/ft-img03.svg" alt="Youtube"></a>
+                                <a href="" target="_blank"><img src="./assets/images/ft-img04.svg" alt="Zing"></a>
+                            </li>
+                            <li>Copyright © 2024  | All Rights Reserved</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" id="page-top"><i class="fa-sharp fa-regular fa-chevron-up"></i></a>
     </footer>
     <script src="./assets/scripts/jquery.min.js"></script>
     <script src="./assets/scripts/bootstrap.min.js"></script>
@@ -304,6 +357,20 @@
                 nextEl: ".next03",
                 prevEl: ".prev03",
             },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1.25,
+                },
+                640: {
+                    slidesPerView: 1.25,
+                },
+                768: {
+                    slidesPerView: 1.25,
+                },
+                1024: {
+                    slidesPerView: 2.25,
+                },
+            },
         });
         var hoSlider01 = new Swiper(".hoSlider01", {
             loop: true,
@@ -312,14 +379,32 @@
             },
         });
 
-        var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
+        var hoSlider07 = new Swiper(".hoSlider07", {
+            slidesPerView: 3,
+            spaceBetween: 70,
+            navigation: {
+                nextEl: ".next07",
+                prevEl: ".prev07",
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 70,
+                },
+            },
+        });
     </script>
 </body>
 
