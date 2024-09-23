@@ -228,72 +228,6 @@ main{
   .hoSlider03{
     position: relative;
     z-index: 1;
-    .swiper-slide{
-      border-radius: 10px;
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-      height: 24.875rem;
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      align-items: flex-end ;
-      justify-content: flex-start;
-      position: relative;z-index: 1;
-      &:hover{
-        .h3-info{
-          background: linear-gradient(360deg, #F54725 6.22%, rgba(245, 71, 37, 0) 95.85%);
-          .ow{
-            transform: translateY(-20px);
-          }
-        }
-      }
-      a{
-        display: block;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
-      }
-      .h3-info{
-        padding: 1.5625rem 2.8125rem 1rem 2.8125rem;
-        background: linear-gradient(360deg, #006634 6.22%, rgba(52, 179, 36, 0) 95.85%);
-        color: #fff;
-        width: 100%;
-        font-size: 1.25rem;
-        min-height: 192px;
-        transition: ease all 0.35s;
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-start;
-        border-radius: 10px;
-        .ow{
-          transition: ease all 0.35s;
-        }
-        p{
-          margin-bottom: 0;
-        }
-        h3{
-          font-size: 2rem;
-          font-weight: 500;
-          font-family: var(--fml01);
-          overflow: hidden;
-          text-overflow: ellipsis;
-          display: -webkit-box;
-          -webkit-line-clamp: 1;
-          -webkit-box-orient: vertical;
-          text-decoration: none;
-        }
-      }
-    }
   }
 }
 .ho-content04{
@@ -581,6 +515,258 @@ main{
     }
   }
 }
+.hd-page{
+  .p-bg{
+    height: 21.125rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    &::before{
+      content: '';
+      width: 100%;
+      height: 100px;
+      background-image: url(../images/ho-img01.png);
+      background-position: top center;
+      background-repeat: no-repeat;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+    }
+    .tt-page{
+      font-family: var(--fml01);
+      font-size: 4rem;
+      font-weight: 500;
+      color: #fff;
+    }
+  }
+  .p-breadcrum{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    font-size: 0.875rem;
+  }
+}
+.layout-tour{
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 24.875rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-end ;
+  justify-content: flex-start;
+  position: relative;z-index: 1;
+  &:hover{
+    .h3-info{
+      background: linear-gradient(360deg, #F54725 6.22%, rgba(245, 71, 37, 0) 95.85%);
+      .ow{
+        transform: translateY(-20px);
+      }
+    }
+  }
+  a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .h3-info{
+    padding: 1.5625rem 2.8125rem 1rem 2.8125rem;
+    background: linear-gradient(360deg, #006634 6.22%, rgba(52, 179, 36, 0) 95.85%);
+    color: #fff;
+    width: 100%;
+    font-size: 1.25rem;
+    min-height: 192px;
+    transition: ease all 0.35s;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border-radius: 10px;
+    .ow{
+      transition: ease all 0.35s;
+    }
+    p{
+      margin-bottom: 0;
+    }
+    h3{
+      font-size: 2rem;
+      font-weight: 500;
+      font-family: var(--fml01);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      text-decoration: none;
+    }
+  }
+}
+.ds-tour{
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.layout-tour.tour02{
+  height: 20.8125rem;
+}
+.p-chitiet{
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary);
+  }
+}
+.grid-795{
+  max-width: 795px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.layout-tuyen{
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 0px #0000001A;
+  .t-img{
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    img{
+      height: 15.375rem;
+      object-fit: cover;
+      transition: ease all 0.35s;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
+  .t-info{
+    padding: 0.9375rem;
+    h3{
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 0.9375rem;
+      a{
+        text-decoration: none;
+        color: inherit;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        transition: ease all 0.35s;
+        &:hover{
+          color: var(--primary01);
+        }
+      }
+    }
+  }
+}
+.ds-tuyen{
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.ct-tuyen{
+  h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary);
+  }
+}
+.ds-tintuc{
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.ds-thuvien{
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.layout-thuvien{
+  .tv-img{
+    height: 11.8125rem;
+    overflow: hidden;
+    border-radius: 10px;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: ease all 0.35s;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
+  h3{
+    font-size: 0.9375rem;
+    color: #353535;
+    margin-top: 0.9375rem;
+    font-weight: 700;
+    a{
+      text-decoration: none;
+      color: inherit;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      transition: ease all 0.35s;
+      &:hover{
+        color: var(--primary01);
+      }
+    }
+  }
+}
+.p-lienhe{
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-transform: uppercase;
+  }
+  ul{
+    li{
+      font-weight: 700;
+      font-size: 0.9375rem;
+    }
+  }
+  .lh-form{
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    padding: 1.875rem 1.25rem;
+  }
+  .lh-maps{
+    overflow: hidden;
+    border-radius: 10px;
+    iframe{
+      height: 395px;
+      border-radius: 10px;
+      width: 100%;
+    }
+  }
+}
 
 // RWD
 @media (max-width: 1268px){
@@ -602,6 +788,18 @@ main{
   // }
 }
 @media (max-width: 767px){
+  
+  .ds-tintuc{
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  .ds-tuyen{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .hd-page .p-bg .tt-page{
+    font-size: 32px;
+  }
   .ho-content05 .h5-row{
     display: block !important;
     .h5-item{
@@ -618,7 +816,7 @@ main{
   .ho-content05 .h5-row .h5-item .h5-info h3{
     font-size: 18px;
   }
-  .ho-content01 .hoSlider01 .swiper-slide{
+  .layout-tour{
     height: 350px;
     font-size: 14px;
   }
@@ -640,16 +838,16 @@ main{
   .title-style01{
     font-size: 24px;
   }
-  .ho-content03 .hoSlider03 .swiper-slide .h3-info h3{
+  .layout-tour .h3-info h3{
     font-size: 20px;
   }
-  .ho-content03 .hoSlider03 .swiper-slide .h3-info{
+  .layout-tour .h3-info{
     font-size: 14px;
     min-height: 100px;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .ho-content03 .hoSlider03 .swiper-slide{
+  .layout-tour{
     height: 250px;
   }
   .ho-content04{
