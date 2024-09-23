@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'iCiel Brush Up';
+    src: url('iCielBrushUp.eot');
+    src: url('iCielBrushUp.eot?#iefix') format('embedded-opentype'),
+        url('iCielBrushUp.woff2') format('woff2'),
+        url('iCielBrushUp.woff') format('woff'),
+        url('iCielBrushUp.ttf') format('truetype'),
+        url('iCielBrushUp.svg#iCielBrushUp') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Brush Up';
+    src: url('iCielBrushUp_1.eot');
+    src: url('iCielBrushUp_1.eot?#iefix') format('embedded-opentype'),
+        url('iCielBrushUp_1.woff2') format('woff2'),
+        url('iCielBrushUp_1.woff') format('woff'),
+        url('iCielBrushUp_1.ttf') format('truetype'),
+        url('iCielBrushUp_1.svg#iCielBrushUp') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
